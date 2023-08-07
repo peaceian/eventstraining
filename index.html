@@ -32,7 +32,7 @@
     <img id="myimg2" src="http://picsum.photos/id/628/450/250"><br><br><!--用.onclick綁定事件(class)-->
     <button class="btnOcean">一山二海</button><!--onclick in function not on the tag.-->
     <script>
-        let btn = document.querySelector('.btnOcean');//querySelector('ID', 'class', 'Tag', 'Attribute', 'Value')
+        let btn = document.querySelector('.btnOcean');//querySelector('ID', 'class', 'Tag')
         btn.onclick = function () {
             document.getElementById('myimg2').src = 'https://picsum.photos/id/558/450/250';
         }//把滑鼠事件寫在函式內
